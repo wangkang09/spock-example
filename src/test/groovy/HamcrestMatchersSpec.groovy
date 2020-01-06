@@ -12,6 +12,7 @@
  * limitations under the License.
  */
 
+
 import spock.lang.Specification
 
 import static spock.util.matcher.HamcrestMatchers.closeTo
@@ -26,7 +27,7 @@ import static spock.util.matcher.HamcrestMatchers.closeTo
  * @since 0.5
  */
 class HamcrestMatchersSpec extends Specification {
-  def "comparing two decimal numbers"() {
+  def 'comparing two decimal numbers'() {
     def myPi = 3.14
 
     expect:
